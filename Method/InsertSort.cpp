@@ -13,7 +13,7 @@ int main(){
 }
 
 void insertSort(int *arr){
-    int stand, len;
+    int len;
     len = getLen(arr);
     for(int i=1; i<len; i++){
         for(int j=i; j>0;){
